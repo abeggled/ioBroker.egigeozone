@@ -19,7 +19,7 @@
   "dependencies": {
     "request": "^2.76.0",
     "url": "^0.11.0",
-    "@iobroker/adapter-core": "^1.0.3"
+    "@iobroker/adapter-core": "^3.0.4"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
