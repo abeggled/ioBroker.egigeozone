@@ -176,6 +176,9 @@ var lastStateNames = ["lastLeave", "lastEnter"],
     stateAtHomeCount = "atHomeCount",
     stateAtHome = "atHome";
 
+createState("", "atHome", "string");
+createState("", "atHomeCount", "number");
+
 function handleRequest(userId, reqData) {
     if (adapter.config.ignoreLeaving && reqData.entry == "0") {
         adapter.log.debug("Ignoring leaving message (as configured)");
